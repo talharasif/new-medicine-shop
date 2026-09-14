@@ -1,0 +1,279 @@
+body
+{
+    font-family: Arial, sans-serif;
+    background:#f5f7fb;
+    margin:0;
+    padding:0;
+}
+
+
+.container
+{
+    width:90%;
+    margin:auto;
+}
+
+
+h2,h3
+{
+    color:#1e3a8a;
+}
+
+
+.card
+{
+    background:white;
+    padding:20px;
+    margin:20px auto;
+    border-radius:10px;
+    box-shadow:0 3px 10px rgba(0,0,0,0.1);
+}
+
+
+/* Table */
+
+table
+{
+    width:100%;
+    border-collapse:collapse;
+    background:white;
+    margin-top:20px;
+}
+
+
+table th
+{
+    background:#2563eb;
+    color:white;
+    padding:12px;
+}
+
+
+table td
+{
+    padding:12px;
+    border-bottom:1px solid #ddd;
+    text-align:center;
+}
+
+
+table tr:hover
+{
+    background:#f1f5f9;
+}
+
+
+
+/* Buttons */
+
+button,
+input[type="submit"],
+a
+{
+    background:#2563eb;
+    color:white;
+    padding:8px 15px;
+    border:none;
+    border-radius:5px;
+    text-decoration:none;
+    cursor:pointer;
+}
+
+
+button:hover,
+input[type="submit"]:hover,
+a:hover
+{
+    background:#1d4ed8;
+}
+
+
+
+/* Inputs */
+
+input
+{
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius:5px;
+    margin:5px;
+}
+
+
+input:focus
+{
+    outline:none;
+    border-color:#2563eb;
+}
+
+
+
+/* Status */
+
+.status
+{
+    padding:6px 12px;
+    border-radius:20px;
+    color:white;
+}
+
+
+.pending
+{
+    background:#f59e0b;
+}
+
+
+.accepted
+{
+    background:#16a34a;
+}
+
+
+.rejected
+{
+    background:#dc2626;
+}
+
+
+
+/* Medicine Details */
+
+.details
+{
+    background:white;
+    width:60%;
+    margin:30px auto;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 5px 15px #ddd;
+}
+
+
+.details p
+{
+    font-size:18px;
+}
+
+
+
+/* Invoice */
+
+.invoice
+{
+    background:white;
+    padding:30px;
+    width:80%;
+    margin:auto;
+    border-radius:10px;
+}
+
+
+
+@media(max-width:700px)
+{
+
+table
+{
+    font-size:12px;
+}
+
+
+.details,
+.invoice
+{
+    width:95%;
+}
+
+}
+ 
+
+.login-body
+{
+    background:linear-gradient(135deg,#2563eb,#0ea5e9);
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+
+.login-box
+{
+    background:white;
+    width:350px;
+    padding:35px;
+    border-radius:15px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.2);
+}
+
+
+.login-header
+{
+    text-align:center;
+    margin-bottom:25px;
+}
+
+
+.login-header h2
+{
+    color:#2563eb;
+    margin-bottom:5px;
+}
+
+
+.login-header p
+{
+    color:#666;
+}
+
+
+.login-box label
+{
+    display:block;
+    margin-top:15px;
+    font-weight:bold;
+    color:#333;
+}
+
+
+.login-box input[type=email],
+.login-box input[type=password]
+{
+    width:100%;
+    padding:12px;
+    margin-top:8px;
+    border:1px solid #ddd;
+    border-radius:8px;
+    box-sizing:border-box;
+}
+
+
+.login-btn
+{
+    width:100%;
+    margin-top:25px;
+    padding:12px;
+    background:#2563eb;
+    color:white;
+    border:none;
+    border-radius:8px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+
+.login-btn:hover
+{
+    background:#1d4ed8;
+}
+
+
+.footer-text
+{
+    text-align:center;
+    margin-top:25px;
+    color:#777;
+    font-size:14px;
+}
+
