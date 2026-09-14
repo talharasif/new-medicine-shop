@@ -1,0 +1,604 @@
+/* ============================= */
+/* General Body */
+/* ============================= */
+
+body
+{
+    margin: 0;
+
+    padding: 0;
+
+    font-family: Arial, sans-serif;
+
+    background-color: #f4f6f8;
+
+    color: #333;
+}
+
+
+/* ============================= */
+/* Main Container */
+/* ============================= */
+
+.container
+{
+    width: 90%;
+
+    max-width: 1100px;
+
+    margin: 30px auto;
+
+    background-color: white;
+
+    padding: 25px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+
+/* ============================= */
+/* Headings */
+/* ============================= */
+
+h1
+{
+    text-align: center;
+
+    margin-bottom: 25px;
+
+    color: #1f6f8b;
+}
+
+
+h2
+{
+    text-align: center;
+
+    margin-bottom: 20px;
+
+    color: #1f6f8b;
+}
+
+
+h3
+{
+    margin-bottom: 8px;
+
+    color: #333;
+}
+
+
+/* ============================= */
+/* Links */
+/* ============================= */
+
+a
+{
+    color: #1f6f8b;
+
+    text-decoration: none;
+
+    font-weight: bold;
+}
+
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+
+/* ============================= */
+/* Button Links */
+/* ============================= */
+
+.btn-link
+{
+    display: inline-block;
+
+    background-color: #1f6f8b;
+
+    color: white;
+
+    padding: 12px 30px;
+
+    border-radius: 5px;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    font-size: 15px;
+}
+
+
+.btn-link:hover
+{
+    background-color: #15566d;
+
+    text-decoration: none;
+}
+
+
+/* ============================= */
+/* Form */
+/* ============================= */
+
+form
+{
+    width: 100%;
+
+    max-width: 500px;
+
+    margin: 20px auto;
+}
+
+
+/* ============================= */
+/* Labels */
+/* ============================= */
+
+label
+{
+    display: block;
+
+    margin-top: 12px;
+
+    margin-bottom: 5px;
+
+    font-weight: bold;
+}
+
+
+/* ============================= */
+/* Input */
+/* ============================= */
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+textarea,
+select
+{
+    width: 100%;
+
+    box-sizing: border-box;
+
+    padding: 11px;
+
+    margin-top: 5px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 5px;
+
+    font-size: 15px;
+
+    outline: none;
+}
+
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+textarea:focus,
+select:focus
+{
+    border-color: #1f6f8b;
+}
+
+
+/* ============================= */
+/* Textarea */
+/* ============================= */
+
+textarea
+{
+    min-height: 100px;
+
+    resize: vertical;
+}
+
+
+/* ============================= */
+/* Buttons */
+/* ============================= */
+
+input[type="submit"],
+button
+{
+    background-color: #1f6f8b;
+
+    color: white;
+
+    border: none;
+
+    padding: 11px 20px;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    font-size: 15px;
+
+    font-weight: bold;
+}
+
+
+input[type="submit"]:hover,
+button:hover
+{
+    background-color: #15566d;
+}
+
+
+/* ============================= */
+/* Error Message */
+/* ============================= */
+
+.error
+{
+    color: red;
+
+    background-color: #ffe6e6;
+
+    border: 1px solid #ff9999;
+
+    padding: 10px;
+
+    border-radius: 5px;
+
+    margin-bottom: 15px;
+}
+
+
+.error:empty
+{
+    display: none;
+}
+
+
+/* ============================= */
+/* Success Message */
+/* ============================= */
+
+.success
+{
+    color: green;
+
+    background-color: #e6ffe6;
+
+    border: 1px solid #99cc99;
+
+    padding: 10px;
+
+    border-radius: 5px;
+
+    margin-bottom: 15px;
+}
+
+
+.success:empty
+{
+    display: none;
+}
+
+
+/* ============================= */
+/* Navigation */
+/* ============================= */
+
+.navbar
+{
+    background-color: #1f6f8b;
+
+    padding: 15px;
+
+    text-align: center;
+}
+
+
+.navbar a
+{
+    color: white;
+
+    margin: 0 15px;
+
+    text-decoration: none;
+
+    font-weight: bold;
+}
+
+
+.navbar a:hover
+{
+    text-decoration: underline;
+}
+
+
+/* ============================= */
+/* Home Page */
+/* ============================= */
+
+.homeBox
+{
+    width: 90%;
+
+    max-width: 700px;
+
+    margin: 40px auto;
+
+    background-color: white;
+
+    padding: 30px;
+
+    text-align: center;
+
+    border-radius: 10px;
+
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+
+/* ============================= */
+/* Medicine Search Area */
+/* ============================= */
+
+.searchArea
+{
+    width: 90%;
+
+    max-width: 900px;
+
+    margin: 20px auto;
+
+    background-color: white;
+
+    padding: 20px;
+
+    border-radius: 8px;
+
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+
+.searchArea input,
+.searchArea select
+{
+    width: 48%;
+
+    display: inline-block;
+}
+
+
+/* ============================= */
+/* Medicine Result */
+/* ============================= */
+
+#result
+{
+    width: 90%;
+
+    max-width: 900px;
+
+    margin: 20px auto;
+}
+
+
+/* ============================= */
+/* Medicine Box */
+/* ============================= */
+
+.medicineBox
+{
+    background-color: white;
+
+    padding: 18px;
+
+    margin-bottom: 15px;
+
+    border-radius: 8px;
+
+    border: 1px solid #ddd;
+
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+
+.medicineBox:hover
+{
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
+
+
+.medicineBox h3
+{
+    color: #1f6f8b;
+
+    margin-top: 0;
+}
+
+
+.medicineBox p
+{
+    margin: 7px 0;
+
+    color: #555;
+}
+
+
+/* ============================= */
+/* Delete Button */
+/* ============================= */
+
+.deleteBtn
+{
+    background-color: #e74c3c;
+
+    color: white;
+
+    border: none;
+
+    padding: 8px 16px;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    font-size: 13px;
+
+    font-weight: bold;
+
+    margin-top: 8px;
+}
+
+
+.deleteBtn:hover
+{
+    background-color: #c0392b;
+}
+
+
+/* ============================= */
+/* Table */
+/* ============================= */
+
+table
+{
+    width: 100%;
+
+    border-collapse: collapse;
+
+    margin-top: 15px;
+}
+
+
+table th,
+table td
+{
+    padding: 12px 15px;
+
+    text-align: left;
+
+    border-bottom: 1px solid #ddd;
+}
+
+
+table th
+{
+    background-color: #1f6f8b;
+
+    color: white;
+
+    font-weight: bold;
+}
+
+
+table tr:hover
+{
+    background-color: #f5f5f5;
+}
+
+
+/* ============================= */
+/* Horizontal Line */
+/* ============================= */
+
+hr
+{
+    border: 0;
+
+    border-top: 1px solid #ddd;
+
+    margin: 15px 0;
+}
+
+
+/* ============================= */
+/* Profile */
+/* ============================= */
+
+.profileBox
+{
+    width: 90%;
+
+    max-width: 600px;
+
+    margin: 30px auto;
+
+    background-color: white;
+
+    padding: 25px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+
+/* ============================= */
+/* Footer */
+/* ============================= */
+
+.footer
+{
+    margin-top: 40px;
+
+    padding: 20px;
+
+    color: #999;
+
+    text-align: center;
+
+    font-weight: normal;
+
+    font-size: 14px;
+}
+
+
+/* ============================= */
+/* Responsive Design */
+/* ============================= */
+
+@media screen and (max-width: 600px)
+{
+    .container
+    {
+        width: 85%;
+
+        padding: 20px;
+    }
+
+
+    .searchArea
+    {
+        width: 85%;
+    }
+
+
+    .searchArea input,
+    .searchArea select
+    {
+        width: 100%;
+
+        margin-bottom: 10px;
+    }
+
+
+    #result
+    {
+        width: 85%;
+    }
+
+
+    .navbar a
+    {
+        display: block;
+
+        margin: 10px 0;
+    }
+}
